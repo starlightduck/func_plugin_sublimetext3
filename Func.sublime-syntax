@@ -2,6 +2,7 @@
 
 file_extensions:
   - fc
+  - fcp
 scope: source.func
 contexts:
 
@@ -41,11 +42,71 @@ contexts:
       scope: invalid.illegal.stray-bracket-end.func
 
   ############################################### Keywords #################################################
-    - match: '\b(if|else|while|do|repeat|until|asm|return|impure|inline|inline_ref|method_id|forall|elseif|elseifnot)\b'
+    - match: '\b((else)?if(not)?|while|do|repeat|until|asm|return|impure|inline(_ref)?|method_id|forall)\b'
       scope: keyword.control.func
 
+    - match: '\b(true|false)\b'
+      scope: entity.name.func
+
+    - match: '[+\-*/=:<>~?&|^\.,!]'
+      scope: keyword.operator.func
+
   ########################################## Std.lib functions #############################################
-    - match: '\b(cons|uncons|list_next|car|cdr|empty_tuple|tpush|single|unsingle|pair|unpair|triple|untriple|tuple4|untuple4|first|second|third|fourth|pair_first|pair_second|triple_first|triple_second|triple_third|now|my_address|get_balance|cur_lt|block_lt|config_param|cell_hash|slice_hash|string_hash|check_signature|check_data_signature|compute_data_size?|slice_compute_data_size?|compute_data_size|slice_compute_data_size|get_data|set_data|get_c3|set_c3|bless|accept_message|set_gas_limit|commit|buy_gas|raw_reserve|raw_reserve_extra|send_raw_message|set_code|random|rand|get_seed|set_seed|randomize|randomize_lt|load_msg_addr|parse_addr|parse_std_addr|parse_var_addr|dump_stack|begin_parse|end_parse|load_ref|preload_ref|load_int|load_uint|preload_int|preload_uint|load_bits|preload_bits|load_grams|skip_bits|first_bits|skip_last_bits|slice_last|load_dict|preload_dict|skip_dict|slice_refs|slice_bits|slice_bits_refs|slice_empty?|slice_data_empty?|slice_depth|begin_cell|end_cell|store_ref|store_uint|store_int|store_slice|store_grams|store_dict|store_maybe_ref|builder_refs|builder_bits|builder_depth|cell_depth|cell_null?|dict_set|dict_set_ref|dict_get?|dict_get_ref?|dict_get_ref|dict_set_get_ref|dict_delete?|dict_delete_get?|dict_add?|dict_replace?|dict_set_builder|dict_add_builder?|dict_replace_builder?|dict_delete_get_min|dict_delete_get_max|dict_get_min?|dict_get_max?|dict_get_min_ref?|dict_get_max_ref?|dict_get_next?|dict_get_nexteq?|dict_get_prev?|dict_get_preveq?|new_dict|dict_empty?|pfxdict_get?|pfxdict_set?|pfxdict_delete?|null|~impure_touch|min|max|minmax|abs)\b'
+    - match: '\b(null|impure_touch|now|my_address|get_balance|(cur|block)_lt|bless)\b'
+      scope: support.function.builtin.func
+
+    - match: '\b((un)?(cons|single|pair|triple|tuple4))\b'
+      scope: support.function.builtin.func
+
+    - match: '\b(list|next|car|cdr|empty_tuple|tpush)\b'
+      scope: support.function.builtin.func
+
+    - match: '\b((pair_|triple_|)(first|second|third|fourth))\b'
+      scope: support.function.builtin.func
+
+    - match: '\b((cell|slice|string)_hash|(slice_)?compute_data_size)\b'
+      scope: support.function.builtin.func
+
+    - match: '\b(get_(data|c3)|(begin|end)_parse)\b'
+      scope: support.function.builtin.func
+
+    - match: '\b(min|max|minmax|abs)\b'
+      scope: support.function.builtin.func
+
+    - match: '\b(((pre)?load|store)_(ref|u?int|bits|dict))\b'
+      scope: support.function.builtin.func    
+
+    - match: '\b(load_grams|skip_(last_)?bits|first_bits|slice_last|skip_dict)\b'
+      scope: support.function.builtin.func    
+
+    - match: '\b(((pre)?load|store)_maybe_ref)|(cell|slice|builder)_depth\b'
+      scope: support.function.builtin.func    
+
+    - match: '\b(slice_(refs|bits|bits_refs|(data_|refs_|)empty))\b'
+      scope: support.function.builtin.func    
+
+    - match: '\b(builder_(refs|bits|depth)|(begin|end)_cell|store_(slice|grams))\b'
+      scope: support.function.builtin.func
+
+    - match: '\b((load_msg|parse(_std|_var|))_addr|dict_get)\b'
+      scope: support.function.builtin.func
+
+    - match: '\b([iu]dict_([gs]et|set_get)(_ref)?)\b'
+      scope: support.function.builtin.func
+
+    - match: '\b([iu]?dict_(set|add|replace)(_builder)?)\b'
+      scope: support.function.builtin.func
+
+    - match: '\b([iu]?dict(_|::)delete(_get(_min|_max)?)?)\b'
+      scope: support.function.builtin.func
+
+    - match: '\b([iu]dict_get_((min|max)(_ref)?|(next|prev)(eq)?))\b'
+      scope: support.function.builtin.func
+
+    - match: '\b(new_dict|dict_empty|pfxdict_([gs]et|delete)|config_param|cell_null)\b'
+      scope: support.function.builtin.func
+
+    - match: '\b(rand(om)?|[gs]et_seed|randomize(_lt)?)\b'
       scope: support.function.builtin.func
 
   ###############################################  Types   #################################################
@@ -56,8 +117,20 @@ contexts:
     - match: '\b[-+]?[0-9A-Z]+[.,]?([0-9A-Z]|[0-9a-z])*\b'
       scope: constant.numeric.func
 
+  ############################################### Preprocessor  ############################################
+    - match: '^#[a-z]+'
+      scope: entity.other.inherited-class.func
 
+  ############################################### Important stuff ##########################################
+    - match: '\b(recv_internal|recv_external|asm|throw(_unless|_if|)|dump_stack|accept_message|commit|set_gas_limit|buy_gas)\b'
+      scope: constant.language.func
 
+    - match: '\b(raw_reserve(_extra)?|send_raw_message|dump|run_method[0-3]|set_(code|data|c3)|check_(data_)?signature)\b'
+      scope: constant.language.func
+
+    # Best practices
+    - match: '\b(store_data|send_message(_back)?)\b'
+      scope: entity.name.tag.func
 
   ##########################################################################################################
   ########################################### Secondary contexts ###########################################

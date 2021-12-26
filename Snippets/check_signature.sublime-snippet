@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+check_signature()
+]]></content>
+	<tabTrigger>check_signature</tabTrigger>
+	<description>sign_check</description>
+	<scope>source.func</scope> 
+</snippet>

@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+dict_set()
+]]></content>
+	<tabTrigger>dict_set</tabTrigger>
+	<description>dictionaries</description>
+	<scope>source.func</scope> 
+</snippet>

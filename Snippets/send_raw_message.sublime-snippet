@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+send_raw_message()
+]]></content>
+	<tabTrigger>send_raw_message</tabTrigger>
+	<description>actions</description>
+	<scope>source.func</scope> 
+</snippet>

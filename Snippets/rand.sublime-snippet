@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+rand()
+]]></content>
+	<tabTrigger>rand</tabTrigger>
+	<description>random</description>
+	<scope>source.func</scope> 
+</snippet>

@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+dict_get?()
+]]></content>
+	<tabTrigger>dict_get?</tabTrigger>
+	<description>dictionaries</description>
+	<scope>source.func</scope> 
+</snippet>

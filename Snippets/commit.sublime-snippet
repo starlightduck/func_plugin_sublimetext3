@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+commit()
+]]></content>
+	<tabTrigger>commit</tabTrigger>
+	<description>gas</description>
+	<scope>source.func</scope> 
+</snippet>

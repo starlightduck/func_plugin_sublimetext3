@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+preload_uint()
+]]></content>
+	<tabTrigger>preload_uint</tabTrigger>
+	<description>slice</description>
+	<scope>source.func</scope> 
+</snippet>

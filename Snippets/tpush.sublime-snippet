@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+tpush()
+]]></content>
+	<tabTrigger>tpush</tabTrigger>
+	<description>tuple</description>
+	<scope>source.func</scope> 
+</snippet>

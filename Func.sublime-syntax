@@ -1,0 +1,110 @@
+%YAML 1.2
+
+file_extensions:
+  - fc
+scope: source.func
+contexts:
+
+  ##########################################################################################################
+  ###########################################    Main context    ###########################################
+  ##########################################################################################################
+
+  main:
+  ############################################### Comments #################################################
+    # Multiline comment
+    - include: start_of_lines_comment
+    # One-line comments
+    - match: ';;'
+      scope: punctuation.definition.comment.func
+      push: line_comment
+
+  ############################################### Strings  #################################################
+    - match: '"'
+      scope: punctuation.definition.string.begin.func
+      push: double_quoted_string
+
+  ############################################### Staples  #################################################
+    # Regular brackets
+    - match: \(
+      push: brackets
+    - match: \)
+      scope: invalid.illegal.stray-bracket-end.func
+    # Curly brackets
+    - match: \{
+      push: curly_brackets
+    - match: \}
+      scope: invalid.illegal.stray-bracket-end.func
+    # Square brackets
+    - match: \[
+      push: square_brackets
+    - match: \]
+      scope: invalid.illegal.stray-bracket-end.func
+
+  ############################################### Keywords #################################################
+    - match: '\b(if|else|while|do|repeat|until|asm|return|impure|inline|inline_ref|method_id|forall|elseif|elseifnot)\b'
+      scope: keyword.control.func
+
+  ########################################## Std.lib functions #############################################
+    - match: '\b(cons|uncons|list_next|car|cdr|empty_tuple|tpush|single|unsingle|pair|unpair|triple|untriple|tuple4|untuple4|first|second|third|fourth|pair_first|pair_second|triple_first|triple_second|triple_third|now|my_address|get_balance|cur_lt|block_lt|config_param|cell_hash|slice_hash|string_hash|check_signature|check_data_signature|compute_data_size?|slice_compute_data_size?|compute_data_size|slice_compute_data_size|get_data|set_data|get_c3|set_c3|bless|accept_message|set_gas_limit|commit|buy_gas|raw_reserve|raw_reserve_extra|send_raw_message|set_code|random|rand|get_seed|set_seed|randomize|randomize_lt|load_msg_addr|parse_addr|parse_std_addr|parse_var_addr|dump_stack|begin_parse|end_parse|load_ref|preload_ref|load_int|load_uint|preload_int|preload_uint|load_bits|preload_bits|load_grams|skip_bits|first_bits|skip_last_bits|slice_last|load_dict|preload_dict|skip_dict|slice_refs|slice_bits|slice_bits_refs|slice_empty?|slice_data_empty?|slice_depth|begin_cell|end_cell|store_ref|store_uint|store_int|store_slice|store_grams|store_dict|store_maybe_ref|builder_refs|builder_bits|builder_depth|cell_depth|cell_null?|dict_set|dict_set_ref|dict_get?|dict_get_ref?|dict_get_ref|dict_set_get_ref|dict_delete?|dict_delete_get?|dict_add?|dict_replace?|dict_set_builder|dict_add_builder?|dict_replace_builder?|dict_delete_get_min|dict_delete_get_max|dict_get_min?|dict_get_max?|dict_get_min_ref?|dict_get_max_ref?|dict_get_next?|dict_get_nexteq?|dict_get_prev?|dict_get_preveq?|new_dict|dict_empty?|pfxdict_get?|pfxdict_set?|pfxdict_delete?|null|~impure_touch|min|max|minmax|abs)\b'
+      scope: support.function.builtin.func
+
+  ###############################################  Types   #################################################
+    - match: '\b(builder|slice|cell|int|tuple|cont|var|_|~)\b'
+      scope: storage.type.func
+
+  ############################################### Numbers  #################################################
+    - match: '\b[-+]?[0-9A-Z]+[.,]?([0-9A-Z]|[0-9a-z])*\b'
+      scope: constant.numeric.func
+
+
+
+
+  ##########################################################################################################
+  ########################################### Secondary contexts ###########################################
+  ##########################################################################################################
+
+
+  ############################################### Strings  #################################################
+  double_quoted_string:
+    - meta_scope: string.quoted.double.func
+    - match: '"'
+      scope: punctuation.definition.string.end.func
+      pop: true
+
+  ############################################### Staples  #################################################
+
+  brackets:
+    # Regular brackets
+    - match: \)
+      pop: true
+    - include: main
+
+  curly_brackets:
+    # Curly brackets
+    - match: \}
+      pop: true
+    - include: main
+  square_brackets:
+    # Square brackets
+    - match: \]
+      pop: true
+    - include: main
+
+  ############################################### Comments #################################################
+  start_of_lines_comment:
+    # Multiline comment START
+    - match: '{-'
+      push: finish_of_lines_comment
+
+  finish_of_lines_comment:
+    # Multiline comment FINISH
+    - include: start_of_lines_comment
+    - meta_scope: comment.block.func
+    - match: '-}'
+      pop: true
+
+  line_comment:
+    # One-line comments
+    - meta_scope: comment.line.func
+    - match: $
+      pop: true

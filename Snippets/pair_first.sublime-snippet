@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+pair_first()
+]]></content>
+	<tabTrigger>pair_first</tabTrigger>
+	<description>tuple</description>
+	<scope>source.func</scope> 
+</snippet>

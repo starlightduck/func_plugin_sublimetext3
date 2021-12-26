@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+config_param()
+]]></content>
+	<tabTrigger>config_param</tabTrigger>
+	<description>info_c7</description>
+	<scope>source.func</scope> 
+</snippet>

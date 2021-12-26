@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+impure
+]]></content>
+	<tabTrigger>impure</tabTrigger>
+	<scope>source.func</scope> 
+</snippet>

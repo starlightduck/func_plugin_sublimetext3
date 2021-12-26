@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+slice_bits()
+]]></content>
+	<tabTrigger>slice_bits</tabTrigger>
+	<description>slice_size</description>
+	<scope>source.func</scope> 
+</snippet>

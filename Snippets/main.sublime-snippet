@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+main
+]]></content>
+	<tabTrigger>main</tabTrigger>
+	<scope>source.func</scope> 
+</snippet>

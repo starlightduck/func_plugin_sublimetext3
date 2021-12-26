@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+load_grams()
+]]></content>
+	<tabTrigger>load_grams</tabTrigger>
+	<description>slice</description>
+	<scope>source.func</scope> 
+</snippet>

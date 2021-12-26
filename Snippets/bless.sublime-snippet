@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+bless()
+]]></content>
+	<tabTrigger>bless</tabTrigger>
+	<description>continue</description>
+	<scope>source.func</scope> 
+</snippet>

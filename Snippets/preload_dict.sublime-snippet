@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+preload_dict()
+]]></content>
+	<tabTrigger>preload_dict</tabTrigger>
+	<description>slice</description>
+	<scope>source.func</scope> 
+</snippet>

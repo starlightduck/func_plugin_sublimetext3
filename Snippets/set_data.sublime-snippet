@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+set_data()
+]]></content>
+	<tabTrigger>set_data</tabTrigger>
+	<description>storage</description>
+	<scope>source.func</scope> 
+</snippet>

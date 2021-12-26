@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+slice_last()
+]]></content>
+	<tabTrigger>slice_last</tabTrigger>
+	<description>slice</description>
+	<scope>source.func</scope> 
+</snippet>

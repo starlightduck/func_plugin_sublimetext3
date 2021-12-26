@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+store_dict()
+]]></content>
+	<tabTrigger>store_dict</tabTrigger>
+	<description>builder</description>
+	<scope>source.func</scope> 
+</snippet>

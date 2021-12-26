@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+third()
+]]></content>
+	<tabTrigger>third</tabTrigger>
+	<description>tuple</description>
+	<scope>source.func</scope> 
+</snippet>

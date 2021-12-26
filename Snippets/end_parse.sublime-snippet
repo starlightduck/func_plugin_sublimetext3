@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+end_parse()
+]]></content>
+	<tabTrigger>end_parse</tabTrigger>
+	<description>slice</description>
+	<scope>source.func</scope> 
+</snippet>

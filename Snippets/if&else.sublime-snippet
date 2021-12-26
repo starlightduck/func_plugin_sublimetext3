@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+if () \{
+	
+\} else \{
+	
+\}
+]]></content>
+	<tabTrigger>if</tabTrigger>
+	<description>if () {...} else {...}</description>
+	<scope>source.func</scope> 
+</snippet>

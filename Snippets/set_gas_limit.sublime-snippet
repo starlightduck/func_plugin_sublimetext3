@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+set_gas_limit()
+]]></content>
+	<tabTrigger>set_gas_limit</tabTrigger>
+	<description>gas</description>
+	<scope>source.func</scope> 
+</snippet>

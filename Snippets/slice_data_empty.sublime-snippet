@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+slice_data_empty?()
+]]></content>
+	<tabTrigger>slice_data_empty?</tabTrigger>
+	<description>slice_size</description>
+	<scope>source.func</scope> 
+</snippet>

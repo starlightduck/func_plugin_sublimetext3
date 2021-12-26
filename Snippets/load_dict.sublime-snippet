@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+load_dict()
+]]></content>
+	<tabTrigger>load_dict</tabTrigger>
+	<description>slice</description>
+	<scope>source.func</scope> 
+</snippet>

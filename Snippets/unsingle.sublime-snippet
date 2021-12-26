@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+unsingle()
+]]></content>
+	<tabTrigger>unsingle</tabTrigger>
+	<description>tuple</description>
+	<scope>source.func</scope> 
+</snippet>

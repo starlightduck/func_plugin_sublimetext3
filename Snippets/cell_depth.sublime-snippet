@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+cell_depth()
+]]></content>
+	<tabTrigger>cell_depth</tabTrigger>
+	<description>cell</description>
+	<scope>source.func</scope> 
+</snippet>

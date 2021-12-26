@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+my_address()
+]]></content>
+	<tabTrigger>my_address</tabTrigger>
+	<description>info_c7</description>
+	<scope>source.func</scope> 
+</snippet>

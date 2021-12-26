@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+dict_get_nexteq?()
+]]></content>
+	<tabTrigger>dict_get_nexteq?</tabTrigger>
+	<description>dict_builder</description>
+	<scope>source.func</scope> 
+</snippet>

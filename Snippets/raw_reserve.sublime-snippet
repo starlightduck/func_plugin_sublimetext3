@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+raw_reserve()
+]]></content>
+	<tabTrigger>raw_reserve</tabTrigger>
+	<description>actions</description>
+	<scope>source.func</scope> 
+</snippet>

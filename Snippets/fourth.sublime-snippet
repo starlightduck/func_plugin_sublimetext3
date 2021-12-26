@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+fourth()
+]]></content>
+	<tabTrigger>fourth</tabTrigger>
+	<description>tuple</description>
+	<scope>source.func</scope> 
+</snippet>

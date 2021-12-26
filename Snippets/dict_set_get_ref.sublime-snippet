@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+dict_set_get_ref()
+]]></content>
+	<tabTrigger>dict_set_get_ref</tabTrigger>
+	<description>dictionaries</description>
+	<scope>source.func</scope> 
+</snippet>

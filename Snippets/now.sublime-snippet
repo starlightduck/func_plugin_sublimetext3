@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+now()
+]]></content>
+	<tabTrigger>now</tabTrigger>
+	<description>info_c7</description>
+	<scope>source.func</scope> 
+</snippet>

@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+begin_cell()
+]]></content>
+	<tabTrigger>begin_cell</tabTrigger>
+	<description>builder</description>
+	<scope>source.func</scope> 
+</snippet>

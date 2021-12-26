@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+dump_stack()
+]]></content>
+	<tabTrigger>dump_stack</tabTrigger>
+	<description>debug</description>
+	<scope>source.func</scope> 
+</snippet>

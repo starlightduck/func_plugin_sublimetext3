@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+asm
+]]></content>
+	<tabTrigger>asm</tabTrigger>
+	<description>Assembler function</description>
+	<scope>source.func</scope>
+	<scope>source.func</scope> 
+</snippet>

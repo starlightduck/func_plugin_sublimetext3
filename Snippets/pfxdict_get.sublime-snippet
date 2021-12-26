@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+pfxdict_get?()
+]]></content>
+	<tabTrigger>pfxdict_get?</tabTrigger>
+	<description>prefix_dict</description>
+	<scope>source.func</scope> 
+</snippet>

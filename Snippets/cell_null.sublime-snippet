@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+cell_null?()
+]]></content>
+	<tabTrigger>cell_null?</tabTrigger>
+	<description>cell</description>
+	<scope>source.func</scope> 
+</snippet>

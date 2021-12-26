@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+~impure_touch()
+]]></content>
+	<tabTrigger>~impure_touch</tabTrigger>
+	<description>special</description>
+	<scope>source.func</scope> 
+</snippet>

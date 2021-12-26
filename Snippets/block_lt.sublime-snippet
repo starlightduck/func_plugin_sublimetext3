@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+block_lt()
+]]></content>
+	<tabTrigger>block_lt</tabTrigger>
+	<description>info_c7</description>
+	<scope>source.func</scope> 
+</snippet>

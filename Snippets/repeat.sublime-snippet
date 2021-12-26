@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+repeat
+]]></content>
+	<tabTrigger>repeat</tabTrigger>
+	<description>Repeat loop</description>
+	<scope>source.func</scope> 
+</snippet>

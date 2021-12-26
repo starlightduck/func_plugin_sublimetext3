@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+buy_gas()
+]]></content>
+	<tabTrigger>buy_gas</tabTrigger>
+	<description>gas</description>
+	<scope>source.func</scope> 
+</snippet>

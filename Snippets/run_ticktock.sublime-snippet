@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+run_ticktock
+]]></content>
+	<tabTrigger>run_ticktock</tabTrigger>
+	<description></description>
+	<scope>source.func</scope> 
+</snippet>

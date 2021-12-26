@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+dict_add?()
+]]></content>
+	<tabTrigger>dict_add?</tabTrigger>
+	<description>dictionaries</description>
+	<scope>source.func</scope> 
+</snippet>

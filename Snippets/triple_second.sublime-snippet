@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+triple_second()
+]]></content>
+	<tabTrigger>triple_second</tabTrigger>
+	<description>tuple</description>
+	<scope>source.func</scope> 
+</snippet>

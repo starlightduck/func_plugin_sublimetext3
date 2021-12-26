@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+randomize_lt()
+]]></content>
+	<tabTrigger>randomize_lt</tabTrigger>
+	<description>random</description>
+	<scope>source.func</scope> 
+</snippet>

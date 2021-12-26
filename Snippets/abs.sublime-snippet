@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+abs()
+]]></content>
+	<tabTrigger>abs</tabTrigger>
+	<description>other</description>
+	<scope>source.func</scope> 
+</snippet>

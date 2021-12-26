@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+load_ref()
+]]></content>
+	<tabTrigger>load_ref</tabTrigger>
+	<description>slice</description>
+	<scope>source.func</scope> 
+</snippet>

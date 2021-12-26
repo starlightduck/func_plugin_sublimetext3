@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+empty_tuple()
+]]></content>
+	<tabTrigger>empty_tuple</tabTrigger>
+	<description>tuple</description>
+	<scope>source.func</scope> 
+</snippet>

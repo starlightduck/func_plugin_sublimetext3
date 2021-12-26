@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+set_seed()
+]]></content>
+	<tabTrigger>set_seed</tabTrigger>
+	<description>random</description>
+	<scope>source.func</scope> 
+</snippet>

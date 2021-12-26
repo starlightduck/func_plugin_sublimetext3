@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+inline
+]]></content>
+	<tabTrigger>inline</tabTrigger>
+
+	<scope>source.func</scope> 
+</snippet>

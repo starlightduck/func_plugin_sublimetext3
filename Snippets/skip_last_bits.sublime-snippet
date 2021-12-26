@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+skip_last_bits()
+]]></content>
+	<tabTrigger>skip_last_bits</tabTrigger>
+	<description>slice</description>
+	<scope>source.func</scope> 
+</snippet>

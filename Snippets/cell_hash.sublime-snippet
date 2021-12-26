@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+cell_hash()
+]]></content>
+	<tabTrigger>cell_hash</tabTrigger>
+	<description>hashes</description>
+	<scope>source.func</scope> 
+</snippet>

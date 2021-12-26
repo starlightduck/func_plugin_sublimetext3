@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+builder_bits()
+]]></content>
+	<tabTrigger>builder_bits</tabTrigger>
+	<description>builder_size</description>
+	<scope>source.func</scope> 
+</snippet>

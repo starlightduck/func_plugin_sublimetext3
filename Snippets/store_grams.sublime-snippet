@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+store_grams()
+]]></content>
+	<tabTrigger>store_grams</tabTrigger>
+	<description>builder</description>
+	<scope>source.func</scope> 
+</snippet>

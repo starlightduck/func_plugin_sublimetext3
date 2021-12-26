@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+pfxdict_delete?()
+]]></content>
+	<tabTrigger>pfxdict_delete?</tabTrigger>
+	<description>prefix_dict</description>
+	<scope>source.func</scope> 
+</snippet>

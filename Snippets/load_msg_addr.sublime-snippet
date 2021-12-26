@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+load_msg_addr()
+]]></content>
+	<tabTrigger>load_msg_addr</tabTrigger>
+	<description>about_addr</description>
+	<scope>source.func</scope> 
+</snippet>

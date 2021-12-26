@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+list_next()
+]]></content>
+	<tabTrigger>list_next</tabTrigger>
+	<description>lists_f</description>
+	<scope>source.func</scope> 
+</snippet>

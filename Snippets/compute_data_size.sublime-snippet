@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+compute_data_size()
+]]></content>
+	<tabTrigger>compute_data_size</tabTrigger>
+	<description>boc_size</description>
+	<scope>source.func</scope> 
+</snippet>

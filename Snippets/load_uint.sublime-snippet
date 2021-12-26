@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+load_uint()
+]]></content>
+	<tabTrigger>load_uint</tabTrigger>
+	<description>slice</description>
+	<scope>source.func</scope> 
+</snippet>

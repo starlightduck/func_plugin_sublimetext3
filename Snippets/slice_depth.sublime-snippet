@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+slice_depth()
+]]></content>
+	<tabTrigger>slice_depth</tabTrigger>
+	<description>slice_size</description>
+	<scope>source.func</scope> 
+</snippet>

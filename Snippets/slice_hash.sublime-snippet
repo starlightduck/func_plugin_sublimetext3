@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+slice_hash()
+]]></content>
+	<tabTrigger>slice_hash</tabTrigger>
+	<description>hashes</description>
+	<scope>source.func</scope> 
+</snippet>

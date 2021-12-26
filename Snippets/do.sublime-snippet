@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+do \{
+	${0:}
+\} until
+]]></content>
+	<tabTrigger>do</tabTrigger>
+	<description>do { ... } until</description>
+	<scope>source.func</scope> 
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+recv_external
+]]></content>
+	<tabTrigger>recv_external</tabTrigger>
+	<scope>source.func</scope> 
+</snippet>

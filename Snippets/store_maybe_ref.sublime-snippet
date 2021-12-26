@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+store_maybe_ref()
+]]></content>
+	<tabTrigger>store_maybe_ref</tabTrigger>
+	<description>builder</description>
+	<scope>source.func</scope> 
+</snippet>

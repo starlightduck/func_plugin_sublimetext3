@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+get_c3()
+]]></content>
+	<tabTrigger>get_c3</tabTrigger>
+	<description>continue</description>
+	<scope>source.func</scope> 
+</snippet>

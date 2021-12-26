@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+cur_lt()
+]]></content>
+	<tabTrigger>cur_lt</tabTrigger>
+	<description>info_c7</description>
+	<scope>source.func</scope> 
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+else
+]]></content>
+	<tabTrigger>else</tabTrigger>
+	<description>Else Condition</description>
+	<scope>source.func</scope> 
+</snippet>

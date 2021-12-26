@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+return
+]]></content>
+	<tabTrigger>return</tabTrigger>
+	<description>Return values</description>
+	<scope>source.func</scope> 
+</snippet>

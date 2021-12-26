@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+builder_depth()
+]]></content>
+	<tabTrigger>builder_depth</tabTrigger>
+	<description>builder_size</description>
+	<scope>source.func</scope> 
+</snippet>

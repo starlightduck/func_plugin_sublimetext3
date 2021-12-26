@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+untuple4()
+]]></content>
+	<tabTrigger>untuple4</tabTrigger>
+	<description>tuple</description>
+	<scope>source.func</scope> 
+</snippet>

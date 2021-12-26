@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+second()
+]]></content>
+	<tabTrigger>second</tabTrigger>
+	<description>tuple</description>
+	<scope>source.func</scope> 
+</snippet>

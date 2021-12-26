@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+dict_empty?()
+]]></content>
+	<tabTrigger>dict_empty?</tabTrigger>
+	<description>dict_builder</description>
+	<scope>source.func</scope> 
+</snippet>

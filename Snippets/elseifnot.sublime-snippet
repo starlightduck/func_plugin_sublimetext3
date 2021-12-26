@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+elseifnot
+]]></content>
+	<tabTrigger>elseifnot</tabTrigger>
+	<description>Elseifnot Condition</description>
+	<scope>source.func</scope> 
+</snippet>

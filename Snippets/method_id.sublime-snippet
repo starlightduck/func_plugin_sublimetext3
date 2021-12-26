@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+method_id
+]]></content>
+	<tabTrigger>method_id</tabTrigger>
+	<scope>source.func</scope> 
+</snippet>

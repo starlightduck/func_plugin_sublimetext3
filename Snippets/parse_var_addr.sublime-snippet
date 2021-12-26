@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+parse_var_addr()
+]]></content>
+	<tabTrigger>parse_var_addr</tabTrigger>
+	<description>about_addr</description>
+	<scope>source.func</scope> 
+</snippet>

@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+dict_replace?()
+]]></content>
+	<tabTrigger>dict_replace?</tabTrigger>
+	<description>dictionaries</description>
+	<scope>source.func</scope> 
+</snippet>

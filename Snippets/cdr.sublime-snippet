@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+cdr()
+]]></content>
+	<tabTrigger>cdr</tabTrigger>
+	<description>lists_f</description>
+	<scope>source.func</scope> 
+</snippet>

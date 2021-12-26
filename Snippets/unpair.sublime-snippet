@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+unpair()
+]]></content>
+	<tabTrigger>unpair</tabTrigger>
+	<description>tuple</description>
+	<scope>source.func</scope> 
+</snippet>

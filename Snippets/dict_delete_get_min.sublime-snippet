@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+dict_delete_get_min()
+]]></content>
+	<tabTrigger>dict_delete_get_min</tabTrigger>
+	<description>dict_builder</description>
+	<scope>source.func</scope> 
+</snippet>

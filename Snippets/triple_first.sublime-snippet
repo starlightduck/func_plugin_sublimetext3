@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+triple_first()
+]]></content>
+	<tabTrigger>triple_first</tabTrigger>
+	<description>tuple</description>
+	<scope>source.func</scope> 
+</snippet>

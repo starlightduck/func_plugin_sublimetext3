@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+uncons()
+]]></content>
+	<tabTrigger>uncons</tabTrigger>
+	<description>lists_f</description>
+	<scope>source.func</scope> 
+</snippet>

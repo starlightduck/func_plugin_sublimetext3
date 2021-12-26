@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+end_cell()
+]]></content>
+	<tabTrigger>end_cell</tabTrigger>
+	<description>builder</description>
+	<scope>source.func</scope> 
+</snippet>

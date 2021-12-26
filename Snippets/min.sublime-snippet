@@ -1,0 +1,9 @@
+
+<snippet>
+	<content><![CDATA[
+min()
+]]></content>
+	<tabTrigger>min</tabTrigger>
+	<description>other</description>
+	<scope>source.func</scope> 
+</snippet>
